@@ -36,6 +36,12 @@ app.listen(port, () => {
 // Then, start the API server with:
 //   node app.js
 //
+<<<<<<< HEAD
 // welcome 
 // cool
 // Trigger CI/CD pipeline...
+=======
+// 
+// Trigger CI/CD pipeline.
+// welcome.
+>>>>>>> e66760c83f28dda6e35109513073b656960046a9
