@@ -56,3 +56,4 @@ jobs:
           
           # Push
           git push -f https://${GIT_TOKEN}@github.com/gururajbalasubramanian/grade-api-gitops.git main
+
