@@ -60,6 +60,3 @@ kubectl create secret docker-registry ghcr-secret \\
   --namespace=default
 ```
 
-### Become a Cloud and DevOps Engineer
-
-Visit https://rayanslim.com
