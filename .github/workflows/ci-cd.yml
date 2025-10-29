@@ -55,5 +55,13 @@ jobs:
           git commit -m "Update image to ${{ github.sha }}"
           
           # Push
-          git push -f https://${GIT_TOKEN}@github.com/gururajbalasubramanian/grade-api-gitops.git main
+            - name: Commit and push changes
+            run: |
+              if git diff --quiet; then
+                echo "No changes to commit."
+              else
+                git add .
+                git commit -m "Update GitOps repo"
+                git push -f https://${GIT_TOKEN}@github.com/gururajbalasubramanian/grade-api-gitops.git main
+              fi
 
